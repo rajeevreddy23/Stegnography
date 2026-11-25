@@ -1,0 +1,7 @@
+configuration,change_rate,fcc2,psnr,ssim,spam_pe,srnet_pe
+Baseline HILL,0.0773,0.00011,59.25,0.9992,0.0,0.5
+HILL-CMD (Base alpha=9),0.1041,0.028883,57.96,0.999,0.0,0.5
++ Improvement A (Adaptive-alpha),0.1001,0.025639,58.13,0.999,0.0,0.5
++ Improvement B (Key-Randomization),0.104,0.028871,57.96,0.999,0.0,0.5
++ Improvement C (8-Neighbor Voting),0.1138,0.031255,57.57,0.9989,0.0,0.5
+HILL-CMD+ (All Improvements A+B+C),0.1074,0.026872,57.82,0.999,0.0,0.5
